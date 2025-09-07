@@ -1,0 +1,162 @@
+.video-courses-page {
+  padding-top: 70px; /* Account for fixed header */
+}
+
+.courses-hero {
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.courses-header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.courses-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-style: italic;
+}
+
+.courses-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.courses-filters {
+  background-color: #f8fafc;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.filters-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.filter-label {
+  font-weight: 600;
+  color: #374151;
+  white-space: nowrap;
+}
+
+.filter-select {
+  padding: 0.75rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  color: #374151;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  min-width: 150px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #8B5CF6;
+}
+
+.courses-grid {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .courses-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .video-courses-page {
+    padding-top: 60px;
+  }
+  
+  .courses-hero {
+    padding: 4rem 0;
+  }
+  
+  .courses-title {
+    font-size: 2.5rem;
+  }
+  
+  .courses-subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .filters-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .filter-group {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .filter-select {
+    min-width: 200px;
+  }
+  
+  .courses-grid {
+    padding: 3rem 0;
+  }
+  
+  .courses-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-courses-page {
+    padding-top: 56px;
+  }
+  
+  .courses-hero {
+    padding: 3rem 0;
+  }
+  
+  .courses-title {
+    font-size: 2rem;
+  }
+  
+  .courses-subtitle {
+    font-size: 1rem;
+  }
+  
+  .filter-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .filter-select {
+    min-width: 100%;
+  }
+  
+  .courses-grid {
+    padding: 2rem 0;
+  }
+}
