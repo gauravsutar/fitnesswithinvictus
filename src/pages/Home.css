@@ -1,0 +1,26 @@
+.home-page {
+  padding-top: 70px; /* Account for fixed header */
+}
+
+/* Ensure smooth scrolling for anchor links */
+.home-page a[href^="#"] {
+  scroll-behavior: smooth;
+}
+
+/* Section spacing */
+.home-page > section {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding-top: 56px;
+  }
+}
