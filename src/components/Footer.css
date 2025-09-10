@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1f2937;
+  background-color: var(--color-text);
   color: #f9fafb;
   padding: 3rem 0 1rem;
   margin-top: auto;
@@ -27,8 +27,8 @@
 .footer-brand-text {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #8B5CF6;
-  background: linear-gradient(135deg, #8B5CF6, #7C3AED);
+  color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-600));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -66,7 +66,7 @@
 }
 
 .footer-link:hover {
-  color: #8B5CF6;
+  color: var(--color-primary);
 }
 
 /* Social Links */
@@ -83,13 +83,13 @@
   height: 40px;
   background-color: #374151;
   color: #d1d5db;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .social-link:hover {
-  background-color: #8B5CF6;
+  background-color: var(--color-primary);
   color: white;
   transform: translateY(-2px);
 }
@@ -110,7 +110,7 @@
   gap: 1rem;
 }
 
-.footer-copyright,
+.footeropyright,
 .footer-credits {
   margin: 0;
   color: #9ca3af;
@@ -187,7 +187,7 @@
 /* Focus styles for accessibility */
 .footer-link:focus,
 .social-link:focus {
-  outline: 2px solid #8B5CF6;
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
@@ -203,7 +203,7 @@
   }
   
   .footer-link:hover {
-    color: #8B5CF6;
+    color: var(--color-primary);
   }
   
   .social-link {
@@ -212,7 +212,7 @@
   }
   
   .social-link:hover {
-    background-color: #8B5CF6;
+    background-color: var(--color-primary);
   }
 }
 

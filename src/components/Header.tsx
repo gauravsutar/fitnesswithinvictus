@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                 className={`nav-link ${isActive('/') ? 'active' : ''}`}
                 aria-current={isActive('/') ? 'page' : undefined}
               >
-                Home
+                HOME
               </Link>
             </li>
             <li>
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
                 className={`nav-link ${isActive('/services') ? 'active' : ''}`}
                 aria-current={isActive('/services') ? 'page' : undefined}
               >
-                Services
+                SERVICES
               </Link>
             </li>
             <li>
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
                 className={`nav-link ${isActive('/video-courses') ? 'active' : ''}`}
                 aria-current={isActive('/video-courses') ? 'page' : undefined}
               >
-                Video Courses
+                VIDEO COURSES
               </Link>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                 className={`nav-link ${isActive('/about') ? 'active' : ''}`}
                 aria-current={isActive('/about') ? 'page' : undefined}
               >
-                About
+                ABOUT
               </Link>
             </li>
             <li>
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                 className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
                 aria-current={isActive('/contact') ? 'page' : undefined}
               >
-                Contact Us
+                CONTACT US
               </Link>
             </li>
           </ul>

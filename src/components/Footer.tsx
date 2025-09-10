@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <div className="footer-copyright">
+          <div className="footeropyright">
             <p>&copy; {currentYear} Fitness with Invictus. All rights reserved.</p>
           </div>
           <div className="footer-credits">

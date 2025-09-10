@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('/public/fonts/LeagueGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   min-height: 100vh;
   display: flex;

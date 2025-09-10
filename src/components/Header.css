@@ -19,7 +19,7 @@
   align-items: center;
   width: 100%;
   padding: 1rem 0;
-  min-height: 70px;
+  min-height: 80px;
   position: relative;
 }
 
@@ -27,7 +27,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   padding-right: 200px; /* Space for social icons container */

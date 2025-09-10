@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     <>
       <Helmet>
         <title>Fitness with Invictus - Transform Your Body</title>
-        <meta name="description" content="Transform your body with professional fitness training, video courses, and personalized coaching. Join thousands of successful transformations with Fitness with Invictus." />
+        <meta name="description" content="Transform your body with professional fitness training, video courses, and personalized coaching. Join hundreds of successful transformations with Fitness with Invictus." />
         <meta name="keywords" content="fitness training, personal trainer, workout videos, fitness transformation, health coaching" />
         <link rel="canonical" href="https://fitnesswithinvictus.com/" />
       </Helmet>

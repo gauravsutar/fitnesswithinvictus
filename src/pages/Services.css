@@ -3,19 +3,18 @@
 }
 
 .services-hero {
-  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-600) 100%);
   color: white;
   padding: 6rem 0;
   text-align: center;
 }
 
-.services-header {
-  max-width: 800px;
-  margin: 0 auto;
-}
+/* Ensure header content stays centered */
+.services-header { max-width: 800px; margin: 0 auto; }
 
 .services-title {
-  font-size: 4rem;
+  font-family: 'LeagueGothic', Arial, Helvetica, sans-serif;
+  font-size: 7rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -51,6 +50,7 @@
 }
 
 .cta-title {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;

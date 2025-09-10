@@ -3,19 +3,21 @@
 }
 
 .contact-hero {
-  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-600) 100%);
   color: white;
   padding: 6rem 0;
   text-align: center;
 }
 
+/* Ensure header content stays centered */
 .contact-header {
   max-width: 800px;
   margin: 0 auto;
 }
 
 .contact-title {
-  font-size: 4rem;
+  font-family: 'LeagueGothic', Arial, Helvetica, sans-serif;
+  font-size: 7rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -66,6 +68,7 @@
 }
 
 .contact-details-title {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #1f2937;
@@ -109,6 +112,7 @@
 }
 
 .contact-method-title {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   color: #1f2937;
@@ -134,6 +138,7 @@
 }
 
 .contact-form-title {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #1f2937;
@@ -268,6 +273,7 @@
 }
 
 .map-title {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   color: #1f2937;
@@ -343,6 +349,9 @@
   .form-row {
     grid-template-columns: 1fr;
   }
+  
+  .contact-form-title, .contact-details-title { text-align: center; }
+  .form-submit { width: 100%; max-width: 320px; margin-left: auto; margin-right: auto; }
   
   .map-section {
     padding: 3rem 0;

@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
         <section className="contact-hero section">
           <div className="container">
             <div className="contact-header">
-              <h1 className="contact-title">CONTACT</h1>
+              <h1 className="contact-title">CONTACT US</h1>
               <p className="contact-subtitle">
                 Welcome to our fitness center! Get to know more about us and what we offer.
               </p>
