@@ -37,9 +37,6 @@ const NotFound: React.FC = () => {
                   <Link to="/" className="btn btn-primary btn-large">
                     Go Home
                   </Link>
-                  <Link to="/services" className="btn btn-secondary btn-large">
-                    View Services
-                  </Link>
                 </div>
               </div>
             </div>
