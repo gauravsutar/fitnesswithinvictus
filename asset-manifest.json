@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fitnesswithinvictus/static/css/main.672da907.css",
-    "main.js": "/fitnesswithinvictus/static/js/main.853b4557.js",
+    "main.css": "/fitnesswithinvictus/static/css/main.b9b045d2.css",
+    "main.js": "/fitnesswithinvictus/static/js/main.8ceafcec.js",
     "static/media/LeagueGothic-Regular.ttf": "/fitnesswithinvictus/static/media/LeagueGothic-Regular.73892265ccd77fb6fbe7.ttf",
     "index.html": "/fitnesswithinvictus/index.html",
-    "main.672da907.css.map": "/fitnesswithinvictus/static/css/main.672da907.css.map",
-    "main.853b4557.js.map": "/fitnesswithinvictus/static/js/main.853b4557.js.map"
+    "main.b9b045d2.css.map": "/fitnesswithinvictus/static/css/main.b9b045d2.css.map",
+    "main.8ceafcec.js.map": "/fitnesswithinvictus/static/js/main.8ceafcec.js.map"
   },
   "entrypoints": [
-    "static/css/main.672da907.css",
-    "static/js/main.853b4557.js"
+    "static/css/main.b9b045d2.css",
+    "static/js/main.8ceafcec.js"
   ]
 }
